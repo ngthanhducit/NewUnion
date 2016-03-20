@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270FDD2479B1075A2B370B74 /* libPods-NewUnion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43A0F3C37F93CC40364E60F /* libPods-NewUnion.a */; };
 		3F5982221C9C48D40084DF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5982211C9C48D40084DF8C /* main.m */; };
 		3F5982251C9C48D40084DF8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5982241C9C48D40084DF8C /* AppDelegate.m */; };
 		3F5982281C9C48D40084DF8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5982271C9C48D40084DF8C /* ViewController.m */; };
@@ -14,6 +15,15 @@
 		3F59822D1C9C48D40084DF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F59822C1C9C48D40084DF8C /* Assets.xcassets */; };
 		3F5982301C9C48D40084DF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F59822E1C9C48D40084DF8C /* LaunchScreen.storyboard */; };
 		3F59823B1C9C48D50084DF8C /* NewUnionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F59823A1C9C48D50084DF8C /* NewUnionTests.m */; };
+		3F5982471C9C55520084DF8C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5982461C9C55520084DF8C /* SignUpViewController.m */; };
+		3F59824C1C9C70650084DF8C /* NUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F59824B1C9C70650084DF8C /* NUTextField.m */; };
+		3F59824F1C9C72DB0084DF8C /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F59824E1C9C72DB0084DF8C /* UsersViewController.m */; };
+		3F5982531C9C73CE0084DF8C /* UsersTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5982521C9C73CE0084DF8C /* UsersTableView.m */; };
+		3F5982571C9C73E40084DF8C /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5982561C9C73E40084DF8C /* UserTableViewCell.m */; };
+		3F59825B1C9C74080084DF8C /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F59825A1C9C74080084DF8C /* Helper.m */; };
+		3F5982671C9C771D0084DF8C /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5982661C9C771D0084DF8C /* Store.m */; };
+		3F70388F1C9DB59B00B13B32 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F70388E1C9DB59B00B13B32 /* User.m */; };
+		3FA42BC81C9C787A003C2DB6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3FA42BC71C9C787A003C2DB6 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B097008B5E10F70F8E6D399 /* Pods-NewUnion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewUnion.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewUnion/Pods-NewUnion.release.xcconfig"; sourceTree = "<group>"; };
 		3F59821D1C9C48D40084DF8C /* NewUnion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewUnion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5982211C9C48D40084DF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F5982231C9C48D40084DF8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +51,25 @@
 		3F5982361C9C48D50084DF8C /* NewUnionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewUnionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F59823A1C9C48D50084DF8C /* NewUnionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewUnionTests.m; sourceTree = "<group>"; };
 		3F59823C1C9C48D50084DF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5982451C9C55520084DF8C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		3F5982461C9C55520084DF8C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		3F59824A1C9C70640084DF8C /* NUTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUTextField.h; sourceTree = "<group>"; };
+		3F59824B1C9C70650084DF8C /* NUTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUTextField.m; sourceTree = "<group>"; };
+		3F59824D1C9C72DB0084DF8C /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		3F59824E1C9C72DB0084DF8C /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		3F5982511C9C73CE0084DF8C /* UsersTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableView.h; sourceTree = "<group>"; };
+		3F5982521C9C73CE0084DF8C /* UsersTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableView.m; sourceTree = "<group>"; };
+		3F5982551C9C73E40084DF8C /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		3F5982561C9C73E40084DF8C /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		3F5982591C9C74080084DF8C /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		3F59825A1C9C74080084DF8C /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		3F5982651C9C771D0084DF8C /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		3F5982661C9C771D0084DF8C /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		3F70388D1C9DB59B00B13B32 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		3F70388E1C9DB59B00B13B32 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		3FA42BC71C9C787A003C2DB6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6E4FB2AB1489B2AE690B653 /* Pods-NewUnion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewUnion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewUnion/Pods-NewUnion.debug.xcconfig"; sourceTree = "<group>"; };
+		D43A0F3C37F93CC40364E60F /* libPods-NewUnion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewUnion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270FDD2479B1075A2B370B74 /* libPods-NewUnion.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E888A5AEFB6278686AB7DF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6E4FB2AB1489B2AE690B653 /* Pods-NewUnion.debug.xcconfig */,
+				2B097008B5E10F70F8E6D399 /* Pods-NewUnion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F5982141C9C48D40084DF8C = {
 			isa = PBXGroup;
 			children = (
 				3F59821F1C9C48D40084DF8C /* NewUnion */,
 				3F5982391C9C48D50084DF8C /* NewUnionTests */,
 				3F59821E1C9C48D40084DF8C /* Products */,
+				0E888A5AEFB6278686AB7DF9 /* Pods */,
+				50E388F09AAE2A7E8FD43DAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +123,11 @@
 		3F59821F1C9C48D40084DF8C /* NewUnion */ = {
 			isa = PBXGroup;
 			children = (
+				3F70388C1C9DB59100B13B32 /* Business */,
+				3F5982581C9C73EF0084DF8C /* Model */,
+				3F5982501C9C73B80084DF8C /* TableViews */,
+				3F5982491C9C70550084DF8C /* Views */,
+				3F5982481C9C55560084DF8C /* ViewControllers */,
 				3F5982231C9C48D40084DF8C /* AppDelegate.h */,
 				3F5982241C9C48D40084DF8C /* AppDelegate.m */,
 				3F5982261C9C48D40084DF8C /* ViewController.h */,
@@ -89,6 +136,7 @@
 				3F59822C1C9C48D40084DF8C /* Assets.xcassets */,
 				3F59822E1C9C48D40084DF8C /* LaunchScreen.storyboard */,
 				3F5982311C9C48D40084DF8C /* Info.plist */,
+				3FA42BC71C9C787A003C2DB6 /* Podfile */,
 				3F5982201C9C48D40084DF8C /* Supporting Files */,
 			);
 			path = NewUnion;
@@ -111,6 +159,73 @@
 			path = NewUnionTests;
 			sourceTree = "<group>";
 		};
+		3F5982481C9C55560084DF8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F5982451C9C55520084DF8C /* SignUpViewController.h */,
+				3F5982461C9C55520084DF8C /* SignUpViewController.m */,
+				3F59824D1C9C72DB0084DF8C /* UsersViewController.h */,
+				3F59824E1C9C72DB0084DF8C /* UsersViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F5982491C9C70550084DF8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F59824A1C9C70640084DF8C /* NUTextField.h */,
+				3F59824B1C9C70650084DF8C /* NUTextField.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3F5982501C9C73B80084DF8C /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				3F5982511C9C73CE0084DF8C /* UsersTableView.h */,
+				3F5982521C9C73CE0084DF8C /* UsersTableView.m */,
+				3F5982541C9C73D20084DF8C /* TableViewCell */,
+			);
+			name = TableViews;
+			sourceTree = "<group>";
+		};
+		3F5982541C9C73D20084DF8C /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3F5982551C9C73E40084DF8C /* UserTableViewCell.h */,
+				3F5982561C9C73E40084DF8C /* UserTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		3F5982581C9C73EF0084DF8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F5982591C9C74080084DF8C /* Helper.h */,
+				3F59825A1C9C74080084DF8C /* Helper.m */,
+				3F5982651C9C771D0084DF8C /* Store.h */,
+				3F5982661C9C771D0084DF8C /* Store.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F70388C1C9DB59100B13B32 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				3F70388D1C9DB59B00B13B32 /* User.h */,
+				3F70388E1C9DB59B00B13B32 /* User.m */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		50E388F09AAE2A7E8FD43DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D43A0F3C37F93CC40364E60F /* libPods-NewUnion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F59823F1C9C48D50084DF8C /* Build configuration list for PBXNativeTarget "NewUnion" */;
 			buildPhases = (
+				10075FA72D290A216FFF8966 /* Check Pods Manifest.lock */,
 				3F5982191C9C48D40084DF8C /* Sources */,
 				3F59821A1C9C48D40084DF8C /* Frameworks */,
 				3F59821B1C9C48D40084DF8C /* Resources */,
+				DD6E22284A5FB404888B69B7 /* Embed Pods Frameworks */,
+				71811027B07AF938A35B7D99 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +311,7 @@
 			files = (
 				3F5982301C9C48D40084DF8C /* LaunchScreen.storyboard in Resources */,
 				3F59822D1C9C48D40084DF8C /* Assets.xcassets in Resources */,
+				3FA42BC81C9C787A003C2DB6 /* Podfile in Resources */,
 				3F59822B1C9C48D40084DF8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,13 +325,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10075FA72D290A216FFF8966 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71811027B07AF938A35B7D99 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewUnion/Pods-NewUnion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6E22284A5FB404888B69B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewUnion/Pods-NewUnion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F5982191C9C48D40084DF8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F70388F1C9DB59B00B13B32 /* User.m in Sources */,
+				3F5982571C9C73E40084DF8C /* UserTableViewCell.m in Sources */,
 				3F5982281C9C48D40084DF8C /* ViewController.m in Sources */,
+				3F5982531C9C73CE0084DF8C /* UsersTableView.m in Sources */,
+				3F5982671C9C771D0084DF8C /* Store.m in Sources */,
 				3F5982251C9C48D40084DF8C /* AppDelegate.m in Sources */,
+				3F59824C1C9C70650084DF8C /* NUTextField.m in Sources */,
+				3F59824F1C9C72DB0084DF8C /* UsersViewController.m in Sources */,
+				3F5982471C9C55520084DF8C /* SignUpViewController.m in Sources */,
+				3F59825B1C9C74080084DF8C /* Helper.m in Sources */,
 				3F5982221C9C48D40084DF8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,9 +512,11 @@
 		};
 		3F5982401C9C48D50084DF8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E4FB2AB1489B2AE690B653 /* Pods-NewUnion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewUnion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chjpcoj.NewUnion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,9 +525,11 @@
 		};
 		3F5982411C9C48D50084DF8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B097008B5E10F70F8E6D399 /* Pods-NewUnion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewUnion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chjpcoj.NewUnion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +538,7 @@
 		};
 		3F5982431C9C48D50084DF8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E4FB2AB1489B2AE690B653 /* Pods-NewUnion.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NewUnionTests/Info.plist;
@@ -371,6 +551,7 @@
 		};
 		3F5982441C9C48D50084DF8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B097008B5E10F70F8E6D399 /* Pods-NewUnion.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NewUnionTests/Info.plist;
@@ -400,6 +581,7 @@
 				3F5982411C9C48D50084DF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F5982421C9C48D50084DF8C /* Build configuration list for PBXNativeTarget "NewUnionTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +590,7 @@
 				3F5982441C9C48D50084DF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

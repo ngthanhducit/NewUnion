@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Helper.h"  
 
 @interface NewUnionTests : XCTestCase
 
@@ -22,6 +23,14 @@
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+}
+
+- (void) testEmailAddress {
+    Helper *helperIns = [Helper shareInstance];
+    BOOL _result = [helperIns validateEmail:@""];
+    
+    XCTAssertTrue(_result);
+    XCTAssertFalse(_result);
 }
 
 - (void)testExample {
