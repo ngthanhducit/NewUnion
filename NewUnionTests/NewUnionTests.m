@@ -25,14 +25,6 @@
     [super tearDown];
 }
 
-- (void) testEmailAddress {
-    Helper *helperIns = [Helper shareInstance];
-    BOOL _result = [helperIns validateEmail:@""];
-    
-    XCTAssertTrue(_result);
-    XCTAssertFalse(_result);
-}
-
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
